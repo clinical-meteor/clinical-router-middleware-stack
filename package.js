@@ -22,7 +22,7 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.use('iron:middleware-stack');
+  api.use('clinical:router-middleware-stack');
   api.use('tinytest');
   api.use('test-helpers');
   api.add_files('test/handler_test.js');
