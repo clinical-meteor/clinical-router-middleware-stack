@@ -1,4 +1,4 @@
-Clinical.MiddlewareStack
+Clinical Router MiddlewareStack
 ==============================================================================
 
 Client and server middleware support inspired by Connect.
@@ -15,4 +15,4 @@ meteor add clinical:router
 ===============================
 #### Licensing  
 
-MIT.  Use as you will.
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
