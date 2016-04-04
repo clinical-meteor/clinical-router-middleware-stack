@@ -3,16 +3,15 @@ describe('clinical:router-middleware-stack', function () {
   var server = meteor();
   var client = browser(server);
 
-  it('MiddlewareStack should exist on the client', function () {
+  it('Handler should exist on the client', function () {
     return client.execute(function () {
-      expect(Iron.MiddlewareStack).to.exist;
+      expect(Handler).to.exist;
     });
   });
 
-  it('MiddlewareStack should be undefined on the server', function () {
+  it('Handler should exist on the client', function () {
     return server.execute(function () {
-      //expect(typeof Router).to.equal("undefined");
-      expect(typeof Iron.MiddlewareStack).to.equal("undefined");
+      expect(Handler).to.exist;
     });
   });
 });
