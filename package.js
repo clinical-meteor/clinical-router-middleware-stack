@@ -18,6 +18,8 @@ Package.on_use(function (api) {
 
   api.add_files('lib/handler.js');
   api.add_files('lib/middleware_stack.js');
+
+  api.export('MiddlewareStack');
   api.export('Handler', {testOnly: true});
 });
 
