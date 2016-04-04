@@ -39,12 +39,12 @@ dependencies:
     - cd helloworld && ls -la
     - cd helloworld && rm helloworld.*
     - cd helloworld && meteor add anti:gagarin@0.4.11 session meteor-platform clinical:theming clinical:default-theme clinical:router clinical:router-default-config clinical:active-layout clinical:active-layout-reset clinical:active-layout-pagescreen-config grove:less
-    - cd helloworld && git clone http://github.com/clinical-meteor/router-middlewarestack packages/router-middlewarestack
-    - cd helloworld && meteor add clinical:router clinical:router-middlewarestack
+    - cd helloworld && git clone http://github.com/clinical-meteor/router-middleware-stack packages/router-middleware-stack
+    - cd helloworld && meteor add clinical:router clinical:router-middleware-stack
     - cd helloworld/packages && ls -la
-    - cd helloworld/packages/router-middlewarestack && ls -la
-    - cd helloworld/packages/router-middlewarestack/tests && ls -la
-    - cd helloworld/packages/router-middlewarestack/tests/gagarin && ls -la
+    - cd helloworld/packages/router-middleware-stack && ls -la
+    - cd helloworld/packages/router-middleware-stack/tests && ls -la
+    - cd helloworld/packages/router-middleware-stack/tests/gagarin && ls -la
     - cd helloworld && starrynight autoconfig
 
 ## Customize test commands
