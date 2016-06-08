@@ -2,7 +2,7 @@ Package.describe({
   name: 'clinical:router-middleware-stack',
   summary: 'Client and server middleware support inspired by Connect.',
   version: '2.1.2',
-  git: 'https://github.com/clinical-meteor/clinical-router-middleware-stack'
+  git: 'https://github.com/clinical-meteor/router-middleware-stack'
 });
 
 Package.on_use(function (api) {
